@@ -12,7 +12,16 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": false,
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": [
+          "https://chat.openai.com/**",
+          "https://claude.ai/**",
+          "http://localhost:5173/**"
+        ]
+      }
     },
     "bundle": {
       "active": true,
