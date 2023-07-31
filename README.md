@@ -3,10 +3,16 @@
 Experimental variant of Smol Menubar built on Tauri and SvelteKit.
 
 
-## Development
+## Run SvelteKit Dev Server
 
 ```bash
 pnpm run dev
+```
+
+## Run Tauri Dev Server
+
+```bash
+pnpm tauri dev
 ```
 
 ## TODO
